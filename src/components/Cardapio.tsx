@@ -78,7 +78,7 @@ const Cardapio = () => {
     ];
 
     return (
-        <div id='cardapio' className="container mx-auto py-12 px-4 md:px-8 pt-24 lg:pt-0 lg:px-16">
+        <div id='cardapio' className="container mx-auto py-12 px-4 md:px-8 pt-24 lg:pt-32 lg:px-16">
             <div className="flex justify-between items-center px-2 mb-4">
                 <h1 className="text-white text-4xl">Cardapio</h1>
             </div>
@@ -101,7 +101,7 @@ const Cardapio = () => {
                             </div>
                             <p className="text-lg text-white">Preço: {local.preco}</p>
                         </div>
-                        <button className="absolute z-20 top-[360px] lg:top-[350px] mx-20 bg-blue-custom text-white py-2 px-16 transition duration-300 hover:bg-yellow-custom hover:text-blue-custom">
+                        <button className="absolute z-20 top-[360px] lg:top-[330px] mx-20 lg:mx-16 bg-blue-custom text-white py-2 px-16 transition duration-300 hover:bg-yellow-custom hover:text-blue-custom">
                             Comprar
                         </button>
                     </div>
