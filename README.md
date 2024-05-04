@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Norishi 
 
-## Getting Started
+![image 1](https://github.com/VictorBravim/Norishi/assets/122113588/02fb7719-0567-4a30-be00-1acf88ce7c80)
 
-First, run the development server:
+Este é um projeto de site desenvolvido com React e Next.js para um restaurante de sushi chamado Norishi. O site apresenta várias seções, como página inicial, menu, informações sobre o restaurante e formulário de contato.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## <code>Tecnologias Utilizadas:</code>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- React.js
+- Next.js
+- TypeScript
+- Tailwind CSS (estilização)
+- React Icons (ícones)
+- React Slick (carrossel de imagens)
+  
+## <code>Como Executar o Projeto</code>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Certifique-se de ter o Node.js instalado em sua máquina.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Clonar o Repositório:
+   ```
+   git clone https://github.com/VictorBravim/Norishi.git
+   ```
 
-## Learn More
+2. Instalar Dependências:
+   ```
+   npm install
+   # ou
+   yarn install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. Rodar o Projeto:
+   ```
+   npm run dev
+   # ou
+   yarn dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Acesse http://localhost:3000 para visualizar o site localmente.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## <code>Estrutura do Projeto</code>
 
-## Deploy on Vercel
+- `components/:` Contém os componentes React reutilizáveis utilizados em diferentes partes do site.
+- `pages/:` Contém as páginas React que são renderizadas em rotas específicas.
+- `public/:` Contém arquivos estáticos como imagens e fontes.
+- `styles/:` Contém arquivos de estilos globais e configurações do Tailwind CSS.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## <code>Funcionalidades</code>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Navegação Suave: A barra de navegação permite rolar suavemente para diferentes seções do site.
+- Carrossel Interativo: A seção "Popular" exibe uma seleção de pratos em um carrossel que pode ser navegado.
+- Responsividade: O site é responsivo e se ajusta automaticamente para diferentes tamanhos de tela.
