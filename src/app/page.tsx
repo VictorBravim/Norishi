@@ -2,6 +2,7 @@
 import Nav from '@/components/Nav'
 import Hero from '@/components/Hero';
 import Popular from '@/components/Popular';
+import Sobre from '@/components/Sobre';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <Nav />
       <Hero />
       <Popular />
+      <Sobre />
       <Footer />
     </main>
   );

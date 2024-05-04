@@ -5,6 +5,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { FaStar } from 'react-icons/fa';
+import { CgArrowRight } from "react-icons/cg";
 import Image from 'next/image';
 import sushi from '@/assets/sushi.png';
 import { Settings } from 'react-slick';
@@ -33,7 +34,7 @@ const Locais = () => {
     const locais: LocalProps[] = [
         {
             nome: 'Tóquio',
-            imagem: sushi, 
+            imagem: sushi,
             preco: '59,90',
             rating: 4,
         },
@@ -77,10 +78,13 @@ const Locais = () => {
     };
 
     return (
-        <div className="h-full flex justify-center items-center">
+        <div className="h-full flex justify-center items-center px-56">
             <div className="container mx-auto py-12">
-                <div className='flex justify-between items-center'>
+                <div className='flex justify-between items-center px-2'>
                     <h1 className='text-white text-4xl mb-4'>Popular</h1>
+                    <div className='text-white text-4xl'>
+                        <CgArrowRight />
+                    </div>
                 </div>
                 <Slider {...sliderSettings}>
                     {locais.map((local, index) => (
@@ -101,7 +105,7 @@ const Locais = () => {
                                         ))}
                                     </div>
                                     <p className="text-lg text-white">Preço: {local.preco}</p>
-                                </div>  
+                                </div>
                                 <button className="absolute bottom-0 bg-blue-custom text-white py-2 px-24 shadow-lg transition duration-300 hover:bg-yellow-custom hover:text-blue-custom">
                                     Comprar
                                 </button>
