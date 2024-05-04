@@ -3,8 +3,15 @@
 import React from 'react';
 import { FaStar } from 'react-icons/fa';
 import Image from 'next/image';
-import sushi from '@/assets/sushi.png';
 import { StaticImageData } from 'next/image';
+import OnigiriYatai from '@/assets/OnigiriYatai.png'
+import Californiaroll from '@/assets/Californiaroll.png'
+import Yakisoba from '@/assets/Yakisoba.png'
+import SashimiSalmao from '@/assets/SashimiSalmao.png'
+import SashimiMakizushi from '@/assets/SashimiMakizushi.png'
+import Onigiri from '@/assets/Onigiri.png'
+import Sopa from '@/assets/sopa.png'
+import Wasabi from '@/assets/Wasabi.png'
 
 interface LocalProps {
     nome: string;
@@ -28,52 +35,52 @@ const Rating = ({ rating }: { rating: number }) => {
 const Cardapio = () => {
     const cardapio: LocalProps[] = [
         {
-            nome: 'Tóquio',
-            imagem: sushi,
-            preco: '59,90',
+            nome: 'Onigiri Yatai',
+            imagem: OnigiriYatai,
+            preco: 'R$ 59,00',
             rating: 4,
         },
         {
-            nome: 'Kyoto',
-            imagem: sushi,
-            preco: '64,90',
+            nome: 'California roll',
+            imagem: Californiaroll,
+            preco: 'R$ 89,00',
             rating: 3,
         },
         {
-            nome: 'Osaka',
-            imagem: sushi,
-            preco: '33,90',
-            rating: 4.5,
-        },
-        {
-            nome: 'Hiroshima',
-            imagem: sushi,
-            preco: '45,90',
-            rating: 4,
-        },
-        {
-            nome: 'Tóquio',
-            imagem: sushi,
-            preco: '59,90',
-            rating: 4,
-        },
-        {
-            nome: 'Kyoto',
-            imagem: sushi,
-            preco: '64,90',
+            nome: 'Yakisoba',
+            imagem: Yakisoba,
+            preco: 'R$ 32,00',
             rating: 3,
         },
         {
-            nome: 'Osaka',
-            imagem: sushi,
-            preco: '33,90',
-            rating: 4.5,
+            nome: 'Sashimi Salmão',
+            imagem: SashimiSalmao,
+            preco: 'R$ 29,00',
+            rating: 3.5,
         },
         {
-            nome: 'Hiroshima',
-            imagem: sushi,
-            preco: '45,90',
-            rating: 4,
+            nome: 'Sashimi Makizushi',
+            imagem: SashimiMakizushi,
+            preco: 'R$ 25,00',
+            rating: 4.2,
+        },
+        {
+            nome: 'Onigiri',
+            imagem: Onigiri,
+            preco: 'R$ 15,00',
+            rating: 4.6,
+        },
+        {
+            nome: 'Sopa Frutos Do Mar',
+            imagem: Sopa,
+            preco: 'R$ 45,00',
+            rating: 4.2,
+        },
+        {
+            nome: 'Wasabi',
+            imagem: Wasabi,
+            preco: 'R$ 19,00',
+            rating: 2.4,
         },
     ];
 
@@ -99,9 +106,9 @@ const Cardapio = () => {
                                     />
                                 ))}
                             </div>
-                            <p className="text-lg text-white">Preço: {local.preco}</p>
+                            <p className="text-xl text-white">{local.preco}</p>
                         </div>
-                        <button className="absolute z-20 top-[360px] lg:top-[330px] mx-20 lg:mx-16 bg-blue-custom text-white py-2 px-16 transition duration-300 hover:bg-yellow-custom hover:text-blue-custom">
+                        <button className="absolute z-20 top-[335px] lg:top-[305px] mx-24 lg:mx-16 bg-blue-custom text-white py-2 px-16 transition duration-300 hover:bg-yellow-custom hover:text-blue-custom">
                             Comprar
                         </button>
                     </div>

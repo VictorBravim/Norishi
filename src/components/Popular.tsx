@@ -7,8 +7,13 @@ import 'slick-carousel/slick/slick-theme.css';
 import { FaStar } from 'react-icons/fa';
 import { CgArrowRight } from 'react-icons/cg';
 import Image from 'next/image';
-import sushi from '@/assets/sushi.png';
 import { StaticImageData } from 'next/image';
+import OnigiriYatai from '@/assets/OnigiriYatai.png'
+import Californiaroll from '@/assets/Californiaroll.png'
+import Yakisoba from '@/assets/Yakisoba.png'
+import SashimiSalmao from '@/assets/SashimiSalmao.png'
+import SashimiMakizushi from '@/assets/SashimiMakizushi.png'
+
 
 interface LocalProps {
     nome: string;
@@ -41,22 +46,34 @@ const Popular = () => {
 
     const popular: LocalProps[] = [
         {
-            nome: 'Tóquio',
-            imagem: sushi,
-            preco: '59,90',
+            nome: 'Onigiri Yatai',
+            imagem: OnigiriYatai,
+            preco: 'R$ 59,00',
             rating: 4,
         },
         {
-            nome: 'Kyoto',
-            imagem: sushi,
-            preco: '64,90',
+            nome: 'California roll',
+            imagem: Californiaroll,
+            preco: 'R$ 89,00',
             rating: 3,
         },
         {
-            nome: 'Osaka',
-            imagem: sushi,
-            preco: '33,90',
-            rating: 4.5,
+            nome: 'Yakisoba',
+            imagem: Yakisoba,
+            preco: 'R$ 32,00',
+            rating: 3,
+        },
+        {
+            nome: 'Sashimi Salmão',
+            imagem: SashimiSalmao,
+            preco: 'R$ 29,00',
+            rating: 3.5,
+        },
+        {
+            nome: 'Sashimi Makizushi',
+            imagem: SashimiMakizushi,
+            preco: 'R$ 25,00',
+            rating: 4.2,
         },
     ];
 
@@ -113,7 +130,7 @@ const Popular = () => {
                                             />
                                         ))}
                                     </div>
-                                    <p className="text-lg text-white">Preço: {local.preco}</p>
+                                    <p className="text-xl text-white">{local.preco}</p>
                                 </div>
                                 <button className="absolute bottom-0 bg-blue-custom text-white py-2 px-24 shadow-lg transition duration-300 hover:bg-yellow-custom hover:text-blue-custom">
                                     Comprar
