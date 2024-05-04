@@ -13,9 +13,9 @@ export default function Nav() {
         } else if (scrollPosition < 2 * window.innerHeight - 100) {
             setActiveSection('sobre');
         } else if (scrollPosition < 3 * window.innerHeight - 100) {
-            setActiveSection('locais');
+            setActiveSection('cardapio');
         } else {
-            setActiveSection('cambio');
+            setActiveSection('contato');
         }
     };
 
@@ -34,7 +34,7 @@ export default function Nav() {
     };
 
     return (
-        <nav className="z-40 bg-transparent p-8 fixed w-full">
+        <nav className="z-40 bg-transparent lg:p-8 fixed w-full">
             <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
                 <div className="flex items-center p-2 ml-0 lg:ml-16">
                 </div>
