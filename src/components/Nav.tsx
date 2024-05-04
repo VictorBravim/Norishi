@@ -40,25 +40,25 @@ export default function Nav() {
                 </div>
                 <div className="md:flex text-white space-x-6 lg:space-x-12 mt-4 md:mt-0">
                     <button
-                        className={`text-base md:text-lg ${activeSection === 'home' ? 'bg-yellow-custom text-blue-custom font-bold px-3' : ''}`}
+                        className={`text-base md:text-lg px-3 ${activeSection === 'home' ? 'bg-yellow-custom text-blue-custom font-bold px-3' : ''}`}
                         onClick={() => scrollToSection('home')}
                     >
                         Home
                     </button>
                     <button
-                        className={`text-base md:text-lg ${activeSection === 'sobre' ? 'bg-yellow-custom text-blue-custom font-bold px-3' : ''}`}
+                        className={`text-base md:text-lg px-3 ${activeSection === 'sobre' ? 'bg-yellow-custom text-blue-custom font-bold px-3' : ''}`}
                         onClick={() => scrollToSection('sobre')}
                     >
                         Sobre
                     </button>
                     <button
-                        className={`text-base md:text-lg ${activeSection === 'cardapio' ? 'bg-yellow-custom text-blue-custom font-bold px-3' : ''}`}
+                        className={`text-base md:text-lg px-3 ${activeSection === 'cardapio' ? 'bg-yellow-custom text-blue-custom font-bold px-3' : ''}`}
                         onClick={() => scrollToSection('cardapio')}
                     >
                         Cardapio
                     </button>
                     <button
-                        className={`text-base md:text-lg ${activeSection === 'contato' ? 'bg-yellow-custom text-blue-custom font-bold px-3' : ''}`}
+                        className={`text-base md:text-lg px-3 ${activeSection === 'contato' ? 'bg-yellow-custom text-blue-custom font-bold px-3' : ''}`}
                         onClick={() => scrollToSection('contato')}
                     >
                         Contato
