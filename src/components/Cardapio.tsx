@@ -10,7 +10,7 @@ import Yakisoba from '@/assets/Yakisoba.png'
 import SashimiSalmao from '@/assets/SashimiSalmao.png'
 import SashimiMakizushi from '@/assets/SashimiMakizushi.png'
 import Onigiri from '@/assets/Onigiri.png'
-import Sopa from '@/assets/sopa.png'
+import Sopa from '@/assets/Sopa.png'
 import Wasabi from '@/assets/Wasabi.png'
 
 interface LocalProps {
