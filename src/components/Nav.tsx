@@ -39,25 +39,25 @@ export default function Nav() {
                 <div className="flex items-center ml-0 lg:ml-8"></div>
                 <div className="md:flex text-white space-x-6 lg:space-x-12 mt-4 md:mt-0">
                     <button
-                        className={`text-base md:text-lg ${activeSection === 'home' ? 'bg-white text-black px-3 rounded-full' : ''}`}
+                        className={`text-base md:text-lg ${activeSection === 'home' ? 'bg-yellow-custom text-black font-bold px-3' : ''}`}
                         onClick={() => scrollToSection('home')}
                     >
                         Home
                     </button>
                     <button
-                        className={`text-base md:text-lg ${activeSection === 'sobre' ? 'bg-white text-black px-3 rounded-full' : ''}`}
+                        className={`text-base md:text-lg ${activeSection === 'sobre' ? 'bg-yellow-custom text-black font-bold px-3' : ''}`}
                         onClick={() => scrollToSection('sobre')}
                     >
                         Sobre
                     </button>
                     <button
-                        className={`text-base md:text-lg ${activeSection === 'locais' ? 'bg-white text-black px-3 rounded-full' : ''}`}
+                        className={`text-base md:text-lg ${activeSection === 'locais' ? 'bg-yellow-custom text-black font-bold px-3' : ''}`}
                         onClick={() => scrollToSection('locais')}
                     >
                         Locais
                     </button>
                     <button
-                        className={`text-base md:text-lg ${activeSection === 'cambio' ? 'bg-white text-black px-3 rounded-full' : ''}`}
+                        className={`text-base md:text-lg ${activeSection === 'cambio' ? 'bg-yellow-custom text-black font-bold px-3' : ''}`}
                         onClick={() => scrollToSection('cambio')}
                     >
                         Câmbio
