@@ -20,7 +20,7 @@ export default function Footer() {
     };
 
     return (
-        <footer className="bg-black text-white p-8">
+        <footer className="bg-blue-custom text-white p-8">
             <div className="container mx-auto flex flex-col lg:flex-row items-center justify-center lg:justify-between">
                 <div className="flex items-center mb-2 lg:mb-0">
                 </div>
