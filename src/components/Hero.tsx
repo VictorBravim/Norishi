@@ -29,8 +29,8 @@ export default function Hero() {
         >
             <div className="relative z-10 text-white w-full lg:w-1/2">
                 <div className="text-center lg:text-left mb-4">
-                    <h1 className="text-8xl lg:text-9xl font-bold mb-3">Norishi</h1>
-                    <h2 className="text-6xl md:text-7xl font-bold lg:pr-56 mb-2">
+                    <h1 className="text-6xl lg:text-9xl font-bold mb-3">Norishi</h1>
+                    <h2 className="text-5xl md:text-7xl font-bold lg:pr-56 mb-2">
                         <span className="text-yellow-custom">Sushi,</span> seafood & salads
                     </h2>
                     <p className="text-2xl md:text-2xl text-gray-bg lg:pr-48 mb-4">

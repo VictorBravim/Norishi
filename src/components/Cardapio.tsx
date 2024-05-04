@@ -91,11 +91,11 @@ const Cardapio = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                 {cardapio.map((local, index) => (
-                    <div key={index} className="relative bg-gray-custom p-4 shadow-lg mb-5">
+                    <div key={index} className="flex flex-col lg:relative bg-gray-custom p-4 shadow-lg mb-5">
                         <Image src={local.imagem} alt={local.nome} width={400} height={250} />
                         <div className="p-4 text-center">
                             <h3 className="text-xl font-semibold text-white mb-2">{local.nome}</h3>
-                            <div className="absolute top-0 left-0 bg-yellow-custom text-gray-800 py-1 px-4 rounded-tr-lg rounded-bl-lg">
+                            <div className="hidden lg:absolute top-0 left-0 bg-yellow-custom text-gray-800 py-1 px-4 rounded-tr-lg rounded-bl-lg">
                                 <p className="text-sm font-semibold">Popular</p>
                             </div>
                             <div className="flex items-center justify-center mb-2">
@@ -108,7 +108,7 @@ const Cardapio = () => {
                             </div>
                             <p className="text-xl text-white">{local.preco}</p>
                         </div>
-                        <button className="absolute z-20 top-[335px] lg:top-[305px] mx-24 lg:mx-16 bg-blue-custom text-white py-2 px-16 transition duration-300 hover:bg-yellow-custom hover:text-blue-custom">
+                        <button className="flex justify-center lg:absolute z-20 lg:top-[305px] mx-0 lg:mx-16 bg-blue-custom text-white py-2 px-16 transition duration-300 hover:bg-yellow-custom hover:text-blue-custom">
                             Comprar
                         </button>
                     </div>
