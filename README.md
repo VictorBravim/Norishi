@@ -1,52 +1,47 @@
-# Norishi 
+# 🍣 Norishi 
 
-![image 1](https://github.com/VictorBravim/Norishi/assets/122113588/02fb7719-0567-4a30-be00-1acf88ce7c80)
+![285shots_so](https://github.com/VictorBravim/Norishi/assets/122113588/209df13d-8f00-4a88-9c4f-9a45ea61e359)
 
-Este é um projeto de site desenvolvido com React e Next.js para um restaurante de sushi chamado Norishi. O site apresenta várias seções, como página inicial, menu, informações sobre o restaurante e formulário de contato.
+## 🚀 Overview
 
-## <code>Tecnologias Utilizadas:</code>
+This is a website project built with React and Next.js for a sushi restaurant called Norishi. The website features several sections such as homepage, menu, restaurant information, and contact form.
 
-- React.js
-- Next.js
-- TypeScript
-- Tailwind CSS (estilização)
-- React Icons (ícones)
-- React Slick (carrossel de imagens)
+## 📋 Requirements
+
+- Node.js
+- npm ou yarn
+- react-slick
+- React Icons
   
-## <code>Como Executar o Projeto</code>
+## 🔧 Installation
 
-Certifique-se de ter o Node.js instalado em sua máquina.
+1. Clone the Repository:
+   
+```
+git clone https://github.com/VictorBravim/Norishi.git
+```
 
-1. Clonar o Repositório:
-   ```
-   git clone https://github.com/VictorBravim/Norishi.git
-   ```
+2. Navigate to the project directory:
+   
+```
+cd Norishi
+```
 
-2. Instalar Dependências:
-   ```
-   npm install
-   # ou
-   yarn install
-   ```
+2. Install Dependencies:
+   
+```
+npm install
+# ou
+yarn install
+```
 
-3. Rodar o Projeto:
-   ```
-   npm run dev
-   # ou
-   yarn dev
-   ```
+## 🛠️ Project Structure
 
-Acesse http://localhost:3000 para visualizar o site localmente.
+- components/: Contains the reusable React components used in different parts of the website.
+- pages/: Contains the React pages that are rendered in specific routes.
+- public/: Contains static files such as images and fonts.
+- styles/: Contains global styles files and Tailwind CSS settings.
 
-## <code>Estrutura do Projeto</code>
+## 📄 License
 
-- `components/:` Contém os componentes React reutilizáveis utilizados em diferentes partes do site.
-- `pages/:` Contém as páginas React que são renderizadas em rotas específicas.
-- `public/:` Contém arquivos estáticos como imagens e fontes.
-- `styles/:` Contém arquivos de estilos globais e configurações do Tailwind CSS.
-
-## <code>Funcionalidades</code>
-
-- Navegação Suave: A barra de navegação permite rolar suavemente para diferentes seções do site.
-- Carrossel Interativo: A seção "Popular" exibe uma seleção de pratos em um carrossel que pode ser navegado.
-- Responsividade: O site é responsivo e se ajusta automaticamente para diferentes tamanhos de tela.
+- This project is licensed under the [MIT License](LICENSE).
