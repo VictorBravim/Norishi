@@ -1,6 +1,6 @@
 # 🍣 Norishi 
 
-![285shots_so](https://github.com/VictorBravim/Norishi/assets/122113588/209df13d-8f00-4a88-9c4f-9a45ea61e359)
+![image 7](https://github.com/VictorBravim/Norishi/assets/122113588/8c1989f7-b914-4ef0-8bfa-299071002acf)
 
 ## 🚀 Overview
 
